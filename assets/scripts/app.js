@@ -30,7 +30,7 @@ function writeToLog(
 }
 
 function calaculateResult(calculationType) {
-  const enteredNumber = getUserNumberInput();
+  const enteredNumber = parseInt(getUserNumberInput());
   const initialResult = currentResult;
   let mathoperator;
   if (calculationType === "ADD") {
